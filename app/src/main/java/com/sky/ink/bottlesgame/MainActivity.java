@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         iv_bottle.setOnClickListener(view -> {
             int new_direction = random.nextInt(1800);
+
             // creating axis
             float axis_x = iv_bottle.getWidth() / 2f;
             float axis_y = iv_bottle.getHeight() / 2f;
